@@ -1,0 +1,11 @@
+numpy==2.2.1
+pandas==2.2.2
+plotly==5.24.1
+requests==2.32.3
+taipy==4.0.1
+taipy-common==4.0.1
+taipy-core==4.0.1
+taipy-gui==4.0.1
+taipy-rest==4.0.1
+taipy-templates==4.0.1
+yfinance==0.2.51
