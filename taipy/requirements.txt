@@ -9,3 +9,4 @@ taipy-gui==4.0.1
 taipy-rest==4.0.1
 taipy-templates==4.0.1
 yfinance==0.2.51
+gunicorn==23.0.0
