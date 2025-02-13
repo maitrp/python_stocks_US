@@ -15,10 +15,9 @@ pages = {"/": root_page, "stock": stock_page, "stocks": stocks_page}
 
 tp_app = Gui(pages=pages)
 if __name__ == "__main__":
-    tp_app.run()
+    tp_app.run(watermark="")
 else:
     app = tp_app.run(
-        port=8080,
         run_server=False,
         watermark="",
         title="S&P 500 stocks visualization",

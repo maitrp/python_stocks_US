@@ -23,7 +23,7 @@ ticker_list = [
     "META",
     "BRK.B",
 ]
-start = "1960-01-01"
+start = "2020-01-01"
 end = pd.Timestamp.today()
 interval = "1d"
 
