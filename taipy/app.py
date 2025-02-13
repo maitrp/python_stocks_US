@@ -22,4 +22,4 @@ else:
         watermark="",
         title="S&P 500 stocks visualization",
     )
-    flask_app = app.get_flask_app()
+    # flask_app = app.get_flask_app()
