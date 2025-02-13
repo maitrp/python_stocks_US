@@ -13,10 +13,13 @@ with tgb.Page() as root_page:
 
 pages = {"/": root_page, "stock": stock_page, "stocks": stocks_page}
 
-app = Gui(pages=pages)
-app.run(
-    run_server=False,
-    watermark="",
-    title="S&P 500 stocks visualization",
-)
-flask_app = app.get_flask_app()
+tp_app = Gui(pages=pages)
+if __name__ == "__main__":
+    tp_app.run(watermark="")
+else:
+    app = tp_app.run(
+        run_server=False,
+        watermark="",
+        title="S&P 500 stocks visualization",
+    )
+    # flask_app = app.get_flask_app()
